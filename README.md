@@ -10,6 +10,8 @@ SMSLink.ro allows you to send SMS to all mobile networks in Romania and also to 
 3. Find and replace within the example the values for Connection ID and Password parameters with the values obtained at the previous step.
 4. Within the examples find and replace the value for *to* and *message* parameters with the destination phone number for the SMS and with the message to be sent to the destination. Phone numbers should be formatted as a Romanian national mobile phone number (07xyzzzzzz) or as an International mobile phone number (00 + Country Code + Phone Number, example 0044zzzzzzzzz).
 
+## Get Started from [main.py](https://github.com/SMSLink-ro/Example-for-sending-SMS-using-Python-with-BULK-Endpoint-v.3/blob/master/main.py) file
+
 ## New Features in SMS Gateway (BULK) Endpoint Version 3 API
 
  * Supports concatenated SMS (longer than 160 characters)
