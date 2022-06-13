@@ -47,22 +47,31 @@ class SMSLinkSMSGatewayHelpers :
 # 
 
 class SMSLinkSMSGatewayBulkPackage :
-    connection_id = None;
-    password = None;
-    doHTTPS = True;
-    testMode = False;
-    endpointHTTP = "http://www.smslink.ro/sms/gateway/communicate/bulk-v3.php";
-    endpointHTTPS = "https://secure.smslink.ro/sms/gateway/communicate/bulk-v3.php";
+  
+    connection_id      = None;
+    password           = None;
+    doHTTPS            = True;
+    testMode           = False;
+    endpointHTTP       = "http://www.smslink.ro/sms/gateway/communicate/bulk-v3.php";
+    endpointHTTPS      = "https://secure.smslink.ro/sms/gateway/communicate/bulk-v3.php";
     temporaryDirectory = "/tmp";
-    remotePackageID = 0;
-    remoteMessageIDs = OrderedDict([]);
-    errorMessage = "";
-    packageContents = OrderedDict([]);
-    packageStatus = 0;
-    packageFile = OrderedDict([("contentPlain",""),("contentCompressed","")]);
-    packageValidation = OrderedDict([("hashMD5",OrderedDict([("contentPlain",""),("contentCompressed","")]))]);
-    clientVersion = "1.0";
-    compressionMethods = OrderedDict([(0,OrderedDict([("CompressionID",0),("Compression","No Compression")])),(1,OrderedDict([("CompressionID",1),("Compression","Compression using Zlib Gzip")])),(2,OrderedDict([("CompressionID",2),("Compression","Compression using bzip2")])),(3,OrderedDict([("CompressionID",3),("Compression","Compression using LZF")]))]);
+    remotePackageID    = 0;
+    remoteMessageIDs   = OrderedDict([]);
+    errorMessage       = "";
+    packageContents    = OrderedDict([]);
+    packageStatus      = 0;
+    packageFile        = OrderedDict([("contentPlain",""),("contentCompressed","")]);
+    packageValidation  = OrderedDict([("hashMD5",OrderedDict([("contentPlain",""),("contentCompressed","")]))]);
+    clientVersion      = "1.0";
+    compressionMethods = OrderedDict(
+      [
+        (0,OrderedDict([("CompressionID",0),("Compression","No Compression")])),
+        (1,OrderedDict([("CompressionID",1),("Compression","Compression using Zlib Gzip")])),
+        (2,OrderedDict([("CompressionID",2),("Compression","Compression using bzip2")])),
+        (3,OrderedDict([("CompressionID",3),("Compression","Compression using LZF")]))
+      ]
+    );
+  
     compressionMethod = 0;
   
     #
