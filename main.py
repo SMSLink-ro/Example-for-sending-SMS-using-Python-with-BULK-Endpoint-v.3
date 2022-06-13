@@ -1,15 +1,6 @@
 import hashlib, os, tempfile, time, requests, re
 from collections import OrderedDict
 
-class SMSLinkSMSGatewayHelpers :
-  @staticmethod
-  def default_key(d):
-    result = 0
-    for key, _ in d.items():          
-      if(type(key) is int and key >= result) :                
-        result = key + 1
-    return result
-        
 #
 #
 #   SMS Gateway (BULK) (Version 3) integration with SMSLink.ro 
@@ -46,6 +37,15 @@ class SMSLinkSMSGatewayHelpers :
 #
 # 
 
+class SMSLinkSMSGatewayHelpers :
+  @staticmethod
+  def default_key(d):
+    result = 0
+    for key, _ in d.items():          
+      if(type(key) is int and key >= result) :                
+        result = key + 1
+    return result
+        
 class SMSLinkSMSGatewayBulkPackage :
   
     connection_id      = None;
