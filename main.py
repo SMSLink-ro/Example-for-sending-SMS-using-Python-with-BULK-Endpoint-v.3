@@ -17,16 +17,10 @@ from collections import OrderedDict
 #   System Requirements:
 #
 #     Python with the following packages: hashlib, os, tempfile, time, requests, re    
-#         
-#         Optional, for transmission compression the following compression libraries are needed:
-#         
-#             for Zlib Gzip compression PHP is required to be compiled --with-zlib[=DIR] [and/or]
-#             for bzip2 compression PHP is required to be compiled --with-bz2[=DIR] [and/or]
-#             for LZF compression PHP is required to be compiled --with-lzf[=DIR]
 #
 #   Usage:
 #
-#     See Usage Examples for the SMSLinkSMSGatewayBulkPackage() class starting on line 343
+#     See Usage Examples for the SMSLinkSMSGatewayBulkPackage() class starting on line 346
 #
 #     Get your SMSLink / SMS Gateway Connection ID and Password from
 #         https://www.smslink.ro/get-api-key/
