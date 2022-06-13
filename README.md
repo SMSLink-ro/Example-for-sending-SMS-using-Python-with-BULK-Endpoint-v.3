@@ -1,4 +1,4 @@
-# Example for sending SMS using SMSLink - SMS Gateway (BULK) Endpoint Version 3 API using Python
+# Example for sending SMS using SMSLink - SMS Gateway (BULK) Endpoint Version 3 API using Python 3
 
 This is an example for sending SMS using [SMSLink.ro](https://www.smslink.ro) API, called [SMS Gateway](https://www.smslink.ro/sms-gateway.html) (BULK). 
 SMSLink.ro allows you to send SMS to all mobile networks in Romania and also to more than 168 countries and more than 1000 mobile operators worldwide. 
@@ -26,14 +26,15 @@ The [complete documentation](https://www.smslink.ro/sms-gateway-documentatie-sms
 
 ## System Requirements 
 
-Python with the following packages: 
+Python 3 with the following packages: 
   
   * hashlib
+  * OrderedDict from collections
   * os
+  * requests
+  * re
   * tempfile
   * time
-  * requests
-  * re    
 
 ## Additional modules and integrations
 
