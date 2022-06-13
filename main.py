@@ -35,7 +35,7 @@ class SMSLinkSMSGatewayHelpers :
 #
 #   Usage:
 #
-#     See Usage Examples for the SMSLinkSMSGatewayBulkPackage() class starting on line 435
+#     See Usage Examples for the SMSLinkSMSGatewayBulkPackage() class starting on line 343
 #
 #     Get your SMSLink / SMS Gateway Connection ID and Password from
 #         https://www.smslink.ro/get-api-key/
