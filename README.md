@@ -33,6 +33,7 @@ Python 3 with the following packages:
   * os
   * requests
   * re
+  * socket
   * tempfile
   * time
 

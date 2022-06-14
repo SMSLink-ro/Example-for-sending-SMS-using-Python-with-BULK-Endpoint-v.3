@@ -1,5 +1,7 @@
-import hashlib, os, tempfile, time, requests, re
+import hashlib, os, tempfile, time, requests, re, socket
 from collections import OrderedDict
+
+socket.setdefaulttimeout(None);
 
 #
 #
@@ -16,7 +18,7 @@ from collections import OrderedDict
 #
 #   System Requirements:
 #
-#     Python with the following packages: hashlib, os, tempfile, time, requests, re    
+#     Python with the following packages: hashlib, os, tempfile, time, requests, re, socket    
 #
 #   Usage:
 #
