@@ -18,7 +18,16 @@ socket.setdefaulttimeout(None);
 #
 #   System Requirements:
 #
-#     Python with the following packages: hashlib, os, tempfile, time, requests, re, socket    
+#      Python 3 with the following packages: 
+#
+#          hashlib
+#          OrderedDict from collections
+#          os
+#          requests
+#          re
+#          socket
+#          tempfile
+#          time  
 #
 #   Usage:
 #
